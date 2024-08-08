@@ -1,6 +1,6 @@
 (executable
- (public_name dlink_control)
- (name dlink_control)
+ (public_name control)
+ (name control)
  (libraries unix ppx_protocol_conv_json)
  (preprocess (pps ppx_protocol_conv))
 )
